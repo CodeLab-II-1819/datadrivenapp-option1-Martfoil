@@ -1,4 +1,5 @@
 #include <iostream>
+void option1();
 
 using namespace std;
 
@@ -25,6 +26,13 @@ int main() {
 		cout << "Invalid input. Try again." << endl;
 		cin >> select;
 	}
+	if (select == 1) {
+		option1();
+	}
 
 	return 0;
+}
+
+void option1() {
+	cout << "option 1 selected" << endl;
 }
