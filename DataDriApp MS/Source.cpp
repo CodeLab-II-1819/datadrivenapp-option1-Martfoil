@@ -19,5 +19,12 @@ int main() {
 	int select;
 	cin >> select;
 
+	while ((select != 1) && (select != 2) && (select != 3) && (select != 4) && (select != 5) && (select != 6) && (select != 7) && (select != 8) && (select != 9) && (select != 0)) {
+		//if the users input is not equal to 1 or 2, the user is asked to try again.
+		//this section of code will continue to run until the user finally inputs 1 or 2.
+		cout << "Invalid input. Try again." << endl;
+		cin >> select;
+	}
+
 	return 0;
 }
