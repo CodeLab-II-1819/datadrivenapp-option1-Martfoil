@@ -1,5 +1,15 @@
 #include <iostream>
 void option1();
+void option2();
+void option3();
+void option4();
+void option5();
+void option6();
+void option7();
+void option8();
+void option9();
+void option0();
+
 
 using namespace std;
 
@@ -53,12 +63,12 @@ int main() {
 	if (select == 9) {
 		option9();
 	}
-	if (select == 10) {
-		option10();
+	if (select == 0) {
+		option0();
 	}
-
-	return 0;
 }
+
+
 
 void option1() {
 	cout << "option 1 selected" << endl;
@@ -87,6 +97,8 @@ void option8() {
 void option9() {
 	cout << "option 9 selected" << endl;
 }
-void option10() {
-	cout << "option 10 selected" << endl;
+void option0() {
+	cout << "option 0 selected" << endl;
 }
+
+
