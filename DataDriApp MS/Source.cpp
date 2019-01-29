@@ -1,4 +1,5 @@
 #include <iostream>
+
 void option1();
 void option2();
 void option3();
@@ -95,16 +96,16 @@ void option6() {
 	cout << "Now printing to the screen any tweets mentioning the word 'Uber'." << endl;
 }
 void option7() {
-	cout << "option 7 selected" << endl;
+	cout << "Option 7 selected" << endl;
 }
 void option8() {
-	cout << "option 8 selected" << endl;
+	cout << "Option 8 selected" << endl;
 }
 void option9() {
-	cout << "option 9 selected" << endl;
+	cout << "Option 9 selected" << endl;
 }
 void option0() {
-	cout << "option 0 selected" << endl;
+	cout << "Option 0 selected" << endl;
 }
 
 
