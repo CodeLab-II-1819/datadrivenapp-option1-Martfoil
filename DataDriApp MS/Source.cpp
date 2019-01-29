@@ -29,10 +29,64 @@ int main() {
 	if (select == 1) {
 		option1();
 	}
+	if (select == 2) {
+		option2();
+	}
+	if (select == 3) {
+		option3();
+	}
+	if (select == 4) {
+		option4();
+	}
+	if (select == 5) {
+		option5();
+	}
+	if (select == 6) {
+		option6();
+	}
+	if (select == 7) {
+		option7();
+	}
+	if (select == 8) {
+		option8();
+	}
+	if (select == 9) {
+		option9();
+	}
+	if (select == 10) {
+		option10();
+	}
 
 	return 0;
 }
 
 void option1() {
 	cout << "option 1 selected" << endl;
+}
+void option2() {
+	cout << "option 2 selected" << endl;
+}
+void option3() {
+	cout << "option 3 selected" << endl;
+}
+void option4() {
+	cout << "option 4 selected" << endl;
+}
+void option5() {
+	cout << "option 5 selected" << endl;
+}
+void option6() {
+	cout << "option 6 selected" << endl;
+}
+void option7() {
+	cout << "option 7 selected" << endl;
+}
+void option8() {
+	cout << "option 8 selected" << endl;
+}
+void option9() {
+	cout << "option 9 selected" << endl;
+}
+void option10() {
+	cout << "option 10 selected" << endl;
 }
