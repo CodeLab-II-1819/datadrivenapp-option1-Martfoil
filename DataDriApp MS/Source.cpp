@@ -71,22 +71,28 @@ int main() {
 
 
 void option1() {
-	cout << "option 1 selected" << endl;
+	cout << "Option 1 selected." << endl;
+	cout << "Now counting the total number of tweets in the data set."<< endl;
 }
 void option2() {
-	cout << "option 2 selected" << endl;
+	cout << "Option 2 selected." << endl;
+	cout << "Now counting the number of tweets that mention the word money." << endl;
 }
 void option3() {
-	cout << "option 3 selected" << endl;
+	cout << "Option 3 selected." << endl;
+	cout << "Now counting the number of tweets that mention politics." << endl;
 }
 void option4() {
-	cout << "option 4 selected" << endl;
+	cout << "Option 4 selected." << endl;
+	cout << "Now printing to the screen any tweets mentioning the word Paris." << endl;
 }
 void option5() {
-	cout << "option 5 selected" << endl;
+	cout << "Option 5 selected." << endl;
+	cout << "Now printing to the screen any tweets mentioning the word DreamWorks." << endl;
 }
 void option6() {
-	cout << "option 6 selected" << endl;
+	cout << "Option 6 selected." << endl;
+	cout << "Now printing to the screen any tweets mentioning the word 'Uber'." << endl;
 }
 void option7() {
 	cout << "option 7 selected" << endl;
