@@ -1,21 +1,36 @@
 #include <iostream>
-
+#include<fstream>
+#include <string>
+#include <vector>
+void menustart();
 void option1();
-void option2();
-void option3();
-void option4();
-void option5();
-void option6();
-void option7();
-void option8();
-void option9();
-void option0();
+//void option2();
+//void option3();
+//void option4();
+//void option5();
+//void option6();
+//void option7();
+//void option8();
+//void option9();
+//void option0();
 
+struct Tweet {
+	string date;
+	string time;
+	string messege;
+};
+
+vector <Tweet> data;
 
 using namespace std;
 
 int main() {
 
+	menustart();
+	
+}
+
+void menustart() {
 	cout << "Welcome to the Twitter Interrogation Program (TIP)!" << endl;
 	cout << "The TIP allows you to interrogate tweets from the top 20 users from our 'sampleTweets' database." << endl;
 	cout << "Below are queries that you are able to use as well as the option number it is equal to:" << endl;
@@ -40,72 +55,77 @@ int main() {
 	if (select == 1) {
 		option1();
 	}
-	if (select == 2) {
-		option2();
+	/*if (select == 2) {
+	option2();
 	}
 	if (select == 3) {
-		option3();
+	option3();
 	}
 	if (select == 4) {
-		option4();
+	option4();
 	}
 	if (select == 5) {
-		option5();
+	option5();
 	}
 	if (select == 6) {
-		option6();
+	option6();
 	}
 	if (select == 7) {
-		option7();
+	option7();
 	}
 	if (select == 8) {
-		option8();
+	option8();
 	}
 	if (select == 9) {
-		option9();
+	option9();
 	}
 	if (select == 0) {
-		option0();
-	}
+	option0();
+	}*/
+
 }
-
-
 
 void option1() {
 	cout << "Option 1 selected." << endl;
 	cout << "Now counting the total number of tweets in the data set."<< endl;
-}
-void option2() {
-	cout << "Option 2 selected." << endl;
-	cout << "Now counting the number of tweets that mention the word money." << endl;
-}
-void option3() {
-	cout << "Option 3 selected." << endl;
-	cout << "Now counting the number of tweets that mention politics." << endl;
-}
-void option4() {
-	cout << "Option 4 selected." << endl;
-	cout << "Now printing to the screen any tweets mentioning the word Paris." << endl;
-}
-void option5() {
-	cout << "Option 5 selected." << endl;
-	cout << "Now printing to the screen any tweets mentioning the word DreamWorks." << endl;
-}
-void option6() {
-	cout << "Option 6 selected." << endl;
-	cout << "Now printing to the screen any tweets mentioning the word 'Uber'." << endl;
-}
-void option7() {
-	cout << "Option 7 selected" << endl;
-}
-void option8() {
-	cout << "Option 8 selected" << endl;
-}
-void option9() {
-	cout << "Option 9 selected" << endl;
-}
-void option0() {
-	cout << "Option 0 selected" << endl;
-}
+	system("Pause");
+	//std::string line_;
+	//ifstream tweets;
+	//tweets.open("Test.txt");
+	}
+	
+//void option2() {
+//	cout << "Option 2 selected." << endl;
+//	cout << "Now counting the number of tweets that mention the word money." << endl;
+//}
+//void option3() {
+//	cout << "Option 3 selected." << endl;
+//	cout << "Now counting the number of tweets that mention politics." << endl;
+//}
+//void option4() {
+//	cout << "Option 4 selected." << endl;
+//	cout << "Now printing to the screen any tweets mentioning the word Paris." << endl;
+//}
+//void option5() {
+//	cout << "Option 5 selected." << endl;
+//	cout << "Now printing to the screen any tweets mentioning the word DreamWorks." << endl;
+//}
+//void option6() {
+//	cout << "Option 6 selected." << endl;
+//	cout << "Now printing to the screen any tweets mentioning the word 'Uber'." << endl;
+//}
+//void option7() {
+//	cout << "Option 7 selected" << endl;
+//}
+//void option8() {
+//	cout << "Option 8 selected" << endl;
+//}
+//void option9() {
+//	cout << "Option 9 selected" << endl;
+//}
+//void option0() {
+//	cout << "Option 0 selected" << endl;
+//}
+
 
 
