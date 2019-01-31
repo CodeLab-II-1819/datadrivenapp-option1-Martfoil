@@ -88,7 +88,24 @@ void option1() {
 		++total; // adds onto total for every tweet counted
 	}
 	cout << "Number of tweets = " << total << endl; //number of tweets is outputted
-	system("pause");
+	cout << "Would you like to search for something else?" << endl;
+	cout << "Press '1' for the main menu." << endl;
+	cout << "Press '2' to exit." << endl;
+	int choose;
+	cin >> choose;
+	while ((choose != 1) && (choose != 2)) {
+		cin.clear();
+		cin.ignore();
+		cout << "invalid input please try again" << endl;
+		cin >> choose;
+	}
+	if (choose == 1) {
+		menustart();
+	}
+	if (choose == 2) {
+		system("pause");
+	}
+	
 }
 	
 void option2() {
@@ -106,7 +123,23 @@ void option2() {
 			}
 		}
 		cout << "Total of tweets mentioning Money: " << total << endl;
-		system("pause");
+		cout << "Would you like to search for something else?" << endl;
+		cout << "Press '1' for the main menu." << endl;
+		cout << "Press '2' to exit." << endl;
+		int choose;
+		cin >> choose;
+		while ((choose != 1) && (choose != 2)) {
+			cin.clear();
+			cin.ignore();
+			cout << "invalid input please try again" << endl;
+			cin >> choose;
+		}
+		if (choose == 1) {
+			menustart();
+		}
+		if (choose == 2) {
+			system("pause");
+		}
 
 	}
 }
@@ -125,7 +158,23 @@ void option3() {
 			}
 		}
 		cout << "Total of tweets mentioning Politics: " << total << endl;
-		system("pause");
+		cout << "Would you like to search for something else?" << endl;
+		cout << "Press '1' for the main menu." << endl;
+		cout << "Press '2' to exit." << endl;
+		int choose;
+		cin >> choose;
+		while ((choose != 1) && (choose != 2)) {
+			cin.clear();
+			cin.ignore();
+			cout << "invalid input please try again" << endl;
+			cin >> choose;
+		}
+		if (choose == 1) {
+			menustart();
+		}
+		if (choose == 2) {
+			system("pause");
+		}
 
 	}
 
@@ -147,7 +196,23 @@ void option4() {
 		}
 	}
 
-	system("Pause");
+	cout << "Would you like to search for something else?" << endl;
+	cout << "Press '1' for the main menu." << endl;
+	cout << "Press '2' to exit." << endl;
+	int choose;
+	cin >> choose;
+	while ((choose != 1) && (choose != 2)) {
+		cin.clear();
+		cin.ignore();
+		cout << "invalid input please try again" << endl;
+		cin >> choose;
+	}
+	if (choose == 1) {
+		menustart();
+	}
+	if (choose == 2) {
+		system("pause");
+	}
 }
 void option5() {
 	cout << "Option 5 selected." << endl;
@@ -165,8 +230,23 @@ void option5() {
 			}
 		}
 	}
-
-	system("Pause");
+	cout << "Would you like to search for something else?" << endl;
+	cout << "Press '1' for the main menu." << endl;
+	cout << "Press '2' to exit." << endl;
+	int choose;
+	cin >> choose;
+	while ((choose != 1) && (choose != 2)) {
+		cin.clear();
+		cin.ignore();
+		cout << "invalid input please try again" << endl;
+		cin >> choose;
+	}
+	if (choose == 1) {
+		menustart();
+	}
+	if (choose == 2) {
+		system("pause");
+	}
 }
 void option6() {
 	cout << "Option 6 selected." << endl;
@@ -184,8 +264,23 @@ void option6() {
 			}
 		}
 	}
-
-	system("Pause");
+	cout << "Would you like to search for something else?" << endl;
+	cout << "Press '1' for the main menu." << endl;
+	cout << "Press '2' to exit." << endl;
+	int choose;
+	cin >> choose;
+	while ((choose != 1) && (choose != 2)) {
+		cin.clear();
+		cin.ignore();
+		cout << "invalid input please try again" << endl;
+		cin >> choose;
+	}
+	if (choose == 1) {
+		menustart();
+	}
+	if (choose == 2) {
+		system("pause");
+	}
 }
 void option7() {
 	cout << "Option 7 selected" << endl;
